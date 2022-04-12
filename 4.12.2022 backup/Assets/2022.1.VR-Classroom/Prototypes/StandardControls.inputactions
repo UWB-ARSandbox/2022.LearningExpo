@@ -1,0 +1,54 @@
+{
+    "name": "StandardControls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "7f511a07-e27f-40fd-b2fc-254ea7aaa153",
+            "actions": [
+                {
+                    "name": "Raycast",
+                    "type": "Button",
+                    "id": "9753c6b4-fe0d-4819-bb1c-50480fccc9a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "b4d31adc-1158-4f5b-9962-10ef0bdbb281",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cbcdd27d-0557-4d6a-8478-bff7943f7d68",
+                    "path": "<XRController>{RightHand}/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Raycast",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7935dae4-14f4-41d4-9fe0-da78ca12a0b6",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

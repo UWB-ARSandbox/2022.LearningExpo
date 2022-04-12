@@ -1,0 +1,161 @@
+{
+    "m_SelectedDeviceId": "8BGX1A74T",
+    "m_SelectedPackage": {
+        "deviceId": "8BGX1A74T",
+        "name": "com.UW_Bothell.CourseXpo",
+        "processId": 24810,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 4404,
+            "exited": true
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 6447,
+            "exited": true
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 9207,
+            "exited": true
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.teslacoilsw.launcher",
+            "processId": 5563,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 11166,
+            "exited": true
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 14121,
+            "exited": true
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 15079,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 16233,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 17343,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 18209,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 19404,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 7910,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 8393,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 14051,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 14422,
+            "exited": false
+        },
+        {
+            "deviceId": "8BGX1A74T",
+            "name": "com.UW_Bothell.CourseXpo",
+            "processId": 24810,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
