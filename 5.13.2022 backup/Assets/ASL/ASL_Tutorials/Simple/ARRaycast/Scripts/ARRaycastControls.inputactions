@@ -1,0 +1,33 @@
+{
+    "name": "ARRaycastControls",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "1854ae13-2658-44bf-bdfc-3a9bc5e01634",
+            "actions": [
+                {
+                    "name": "Raycast",
+                    "type": "Button",
+                    "id": "3a932dbb-de30-4fee-a5b8-f0381c85e5d1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0c1b25f8-7f0f-40ae-a937-548092afa270",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Raycast",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!162 &1
+EditorUserSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 4
+  m_ConfigSettings:
+    RecentlyUsedScenePath-0:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b0d023afc0f5846c2292e450400f41a08
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b2a042ce603070cb61d184b0102fc1714ed500001c40fcb54dd1115df00
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b1f337fc1090c05f3451f05181ae4
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 224247031146467a3e224303230f60240303173825292a23621a143ef2ec3177c3d504e8fe393e2f2d4dce0e363f183cf3191d34d3130b060102f84004f1190708
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b0d023afc0f5f46c2292e450400f41a08
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b0d023afc0f5a46c03925091b0bfe1a23f0041205cc17cb54dd1115df00
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b0d023afc0f5c46d7394a0a1f0abd2c1ef0041b51f61bc014cd5109c51008d7
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b1f0f3beb390805f20905135f1bf30705e6
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b09043af9594905f31c441e1f07e917
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646095d5c5e6c416d69225b34142b3f3b343f22245203f0ef2037f6fe26ecf4750c3f3c0cea2f4b09043af959471ef8021e12
+      flags: 0
+    lightmappingDeviceAndPlatform:
+      value: 53
+      flags: 0
+    vcSharedLogLevel:
+      value: 0d5e400f0650
+      flags: 0
+  m_VCAutomaticAdd: 1
+  m_VCDebugCom: 0
+  m_VCDebugCmd: 0
+  m_VCDebugOut: 0
+  m_SemanticMergeMode: 2
+  m_VCShowFailedCheckout: 1
+  m_VCOverwriteFailedCheckoutAssets: 1
+  m_VCProjectOverlayIcons: 1
+  m_VCHierarchyOverlayIcons: 1
+  m_VCOtherOverlayIcons: 1
+  m_VCAllowAsyncUpdate: 0
