@@ -8,14 +8,30 @@ public class PersonalStats : MonoBehaviour
     #region Data storing classes
     public class BoothStats {
         public int timeInBooth;
+        public virtual string OutputStats() {
+            return $"{timeInBooth}";
+        }
     }
     public class AssessmentStats : BoothStats {
         public float percentageScore { get; set; }
         public float timeTaken { get; set; }
         public bool completed { get; set; }
+
+
+        //writer.AppendLine($"{item.Key},Time in booth,Time taken to complete,Questions timed out,Score,Completed");
+
+        public override string OutputStats()
+        {
+            return $"{timeInBooth},{timeTaken},,{percentageScore},{completed}";
+        }
+
     }
     public class QuizAndTestStats : AssessmentStats {
         public int questionsTimedOut { get; set; }
+        public override string OutputStats()
+        {
+            return $"{timeInBooth},{timeTaken},{questionsTimedOut},{percentageScore},{completed}";
+        }
     }
     #endregion
 

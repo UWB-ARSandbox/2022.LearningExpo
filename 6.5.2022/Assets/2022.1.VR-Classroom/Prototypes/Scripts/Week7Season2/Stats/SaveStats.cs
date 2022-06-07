@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.XR;
 using System.Text;
+using System.Linq;
 
 public class SaveStats : MonoBehaviour
 {
@@ -47,23 +48,27 @@ public class SaveStats : MonoBehaviour
             foreach (var item in statsManager.studentStats)
             {
                 //top line: name, stats categories
-                writer.AppendLine($"{item.Key},Score,Completed");
+                writer.AppendLine($"{item.Key},Time in booth,Time taken to complete,Questions timed out,Score,Completed");
                 PersonalStats studentStats = item.Value;
 
+                //sort the names before exporting
+                studentStats.boothStats = studentStats.boothStats.OrderBy(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
                 foreach (var boothStats in studentStats.boothStats)
                 {
                     //each booth line: Name, score, completed
-                    writer.AppendLine($"{boothStats.Key},{studentStats.GetPercentageScore(boothStats.Key)},{studentStats.GetCompletedState(boothStats.Key)}");
+                    writer.AppendLine($"{boothStats.Key},{boothStats.Value.OutputStats()}");
                 }
                 writer.AppendLine();
             }
         }
         else
         {
-            writer.AppendLine($",Score,Completed");
+            //sort the names before exporting
+            PlayerStats.boothStats = PlayerStats.boothStats.OrderBy(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
+            writer.AppendLine($",Time in booth,Time taken to complete,Questions timed out,Score,Completed");
             foreach (var item in PlayerStats.boothStats)
             {
-                writer.AppendLine($"{item.Key},{PlayerStats.GetPercentageScore(item.Key)},{PlayerStats.GetCompletedState(item.Key)}");
+                writer.AppendLine($"{item.Key},{item.Value.OutputStats()}");
             }
         }
 
