@@ -36,7 +36,7 @@ public class XRCheck : MonoBehaviour
         originPos = XROrigin.transform.position;
 
         //Set VR Keyboard position
-        ui_Keyboard.transform.position = new Vector3(originPos.x, originPos.y + .135f, originPos.z + 2);
+        ui_Keyboard.transform.position = new Vector3(originPos.x, originPos.y + .035f, originPos.z + 2);
 
         //TrackedPoseDriver for VR
         _tpd = Camera.main.GetComponent<TrackedPoseDriver>();
